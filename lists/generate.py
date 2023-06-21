@@ -5,7 +5,11 @@ import glob
 from pathlib import Path
 
 
-apps = ['clash', 'switchyomega']
+apps = {
+  'clash': 'generate_clash_list',
+  'switchy-omega': 'generate_switchyomega_list'
+}
+
 lists = glob.glob('*.list')
 
 
@@ -25,14 +29,14 @@ def generate_switchyomega_list(in_file, out_file):
 
 os.chdir(Path(__file__).resolve().parent)
 
-for app in apps:
+for app, fn in apps.items():
   for list_file in lists:
     filename = Path(list_file).stem
     out_path = Path(app) / filename
     in_file = open(list_file)
     out_file = open(out_path, 'w')
 
-    locals()[f'generate_{app}_list'](in_file, out_file)
+    locals()[fn](in_file, out_file)
 
     in_file.close()
     out_file.close()

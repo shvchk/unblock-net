@@ -1,0 +1,59 @@
+{
+  "+Auto": {
+    "profileType": "SwitchProfile",
+    "rules": [],
+    "name": "Auto",
+    "color": "#99dd99",
+    "defaultProfileName": "__ruleListOf_Auto",
+    "revision": "188db66ed65"
+  },
+  "+Proxy": {
+    "bypassList": [
+      {
+        "pattern": "127.0.0.1",
+        "conditionType": "BypassCondition"
+      },
+      {
+        "pattern": "::1",
+        "conditionType": "BypassCondition"
+      },
+      {
+        "pattern": "localhost",
+        "conditionType": "BypassCondition"
+      }
+    ],
+    "profileType": "FixedProfile",
+    "name": "Proxy",
+    "color": "#99ccee",
+    "fallbackProxy": {
+      "port": 1080,
+      "scheme": "socks5",
+      "host": "localhost"
+    },
+    "revision": "1751f7820b8"
+  },
+  "-addConditionsToBottom": false,
+  "-confirmDeletion": true,
+  "-downloadInterval": 1440,
+  "-enableQuickSwitch": false,
+  "-monitorWebRequests": true,
+  "-quickSwitchProfiles": [],
+  "-refreshOnProfileChange": true,
+  "-revertProxyChanges": true,
+  "-showExternalProfile": true,
+  "-showInspectMenu": true,
+  "-startupProfileName": "",
+  "schemaVersion": 2,
+  "+__ruleListOf_Auto": {
+    "name": "__ruleListOf_Auto",
+    "defaultProfileName": "direct",
+    "profileType": "RuleListProfile",
+    "color": "#99dd99",
+    "format": "Switchy",
+    "matchProfileName": "Proxy",
+    "ruleList": "",
+    "revision": "188db6827b3",
+    "sourceUrl": "https://cdn.jsdelivr.net/gh/shvchk/unblock-net/lists/switchy-omega/ru-blocked",
+    "lastUpdate": "2023-06-01T00:00:00.000Z"
+  }
+}
