@@ -36,7 +36,7 @@ rule-providers:
     type: http
     behavior: domain
     format: text
-    url: 'https://cdn.jsdelivr.net/gh/shvchk/clash-rules/ru-blocked'
+    url: 'https://cdn.jsdelivr.net/gh/shvchk/unblock-net/lists/clash/ru-blocked'
     path: ./ruleset/ru-blocked
     interval: 86400
 
