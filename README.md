@@ -10,4 +10,4 @@ Apps lists, configs and instructions:
 
 ### Domains blocked in / from Russia
 
-Main list is [lists/ru-blocked.list](lists/ru-blocked.list), app-specific lists are generated automatically from this. There are now hundreds of popular domains listed instead of automatic import of all *hundreds thousands* blocked by RKN. Contributions welcome 😉
+Main list is [lists/ru-blocked.list](lists/ru-blocked.list), app-specific lists are generated automatically from this. There are now hundreds of popular domains listed instead of automatic import of all [hundreds thousands](https://rknweb.ru/statistics) blocked by RKN. Contributions welcome 😉
