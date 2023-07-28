@@ -38,7 +38,7 @@ for app, fn in apps.items():
     in_file = open(list_file)
     out_file = open(out_path, 'w')
 
-    print(f'- Generating {str(out_file)}')
+    print(f'- Generating {out_path}')
     locals()[fn](in_file, out_file)
 
     in_file.close()
