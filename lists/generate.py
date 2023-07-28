@@ -30,12 +30,14 @@ def generate_switchyomega_list(in_file, out_file):
 os.chdir(Path(__file__).resolve().parent)
 
 for app, fn in apps.items():
+  print(f'Generating lists for {app}')
   for list_file in lists:
     filename = Path(list_file).stem
     out_path = Path(app) / filename
     in_file = open(list_file)
     out_file = open(out_path, 'w')
 
+    print(f'- Generating {out_file}')
     locals()[fn](in_file, out_file)
 
     in_file.close()
