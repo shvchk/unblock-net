@@ -16,12 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-#      - name: Sort main lists
-#        run: |
-#          for l in lists/*.list; do
-#            sort -uo "$l"{,}
-#            sed -i '1{/^ *$/d}' "$l"
-#          done
+      - name: Sort main lists
+        run: |
+          for l in lists/*.list; do
+            grep -qi 'gha: sort=manual' "$l" && continue
+            sort -uo "$l"{,}
+            sed -i '1{/^ *$/d}' "$l"
+          done
 
       - name: Generate app-specific lists
         run: python lists/generate.py
