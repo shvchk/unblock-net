@@ -6,6 +6,9 @@ on:
     paths: [ 'lists/*.list' ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   main:
     runs-on: ubuntu-latest
