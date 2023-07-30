@@ -1,4 +1,4 @@
-<p align="right">Русский | <a href="README.md">English</a></p>
+<p align="right"><a href="README.md">English</a> | Русский</p>
 
 ### Настройка SwitchyOmega:
 
