@@ -1,3 +1,5 @@
+<p align="right">English | <a href="README.ru.md">Русский</a></p>
+
 ## Unblock the net
 
 Blocked domain lists, apps configs and instructions to fight internet censorship.
