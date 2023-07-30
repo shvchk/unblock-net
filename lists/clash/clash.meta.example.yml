@@ -5,9 +5,9 @@ dns:
   enhanced-mode: fake-ip
 
   default-nameserver:
-   - 1.1.1.1
-   - 8.8.8.8
-   - 9.9.9.9
+    - 1.1.1.1
+    - 8.8.8.8
+    - 9.9.9.9
 
   nameserver:
     - tls://one.one.one.one
