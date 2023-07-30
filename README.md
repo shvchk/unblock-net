@@ -2,9 +2,9 @@
 
 ## Unblock the net
 
-Blocked domain lists, apps configs and instructions to fight internet censorship.
+Blocked domain lists, apps configs and instructions to fight censorship.
 
-Apps lists, configs and instructions:
+App-specific lists, configs and instructions:
 
 - [Clash.Meta](lists/clash)
 - [Proxy SwitchyOmega](lists/switchy-omega)
