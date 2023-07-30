@@ -19,7 +19,7 @@
 
 Вам понадобится файл конфигурации, примером может послужить [clash.meta.example.yml](clash.meta.example.yml).
 
-Видео (⏱️ 90 сек.):
+Видео, ⏱️ 90 сек.:
 
 [![image](../../misc/clash-meta-android-video-preview.webp)](https://youtu.be/DR5jBDJWPks)
 
@@ -64,6 +64,6 @@
 
 Вам понадобится файл конфигурации, примером может послужить [clash.meta.example.yml](clash.meta.example.yml).
 
-[Видео](https://youtu.be/L50PtV_DU14) (⏱️ 35 сек.):
+Видео, ⏱️ 35 сек.:
 
 [![image](../../misc/clash-verge-video-preview.webp)](https://youtu.be/L50PtV_DU14)
