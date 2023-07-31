@@ -20,7 +20,7 @@ I recommend to install with [F-Droid](https://f-droid.org) / [Neo Store](https:/
 
 You will need a config file, [clash.meta.example.yml](clash.meta.example.yml) can be used as an example.
 
-Video, 83 sec.:
+Video, ⏱️ 83 sec.:
 
 [![image](../../misc/clash-meta-android-video-preview.webp)](https://youtu.be/uT7MzejEg8k)
 
