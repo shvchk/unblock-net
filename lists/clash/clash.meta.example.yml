@@ -3,22 +3,12 @@ log-level: error
 dns:
   enable: true
   enhanced-mode: fake-ip
-
-  default-nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
-    - 9.9.9.9
-
-  nameserver:
-    - tls://one.one.one.one
-    - tls://dns.google
-    - tls://dns.quad9.net
-
-  fallback-filter:
-    geoip: false
-
+  default-nameserver: [ tls://8.8.8.8 ]
+  nameserver: [ tls://one.one.one.one ]
+  fallback-filter: { geoip: false }
   fake-ip-filter:
-    - '*.lan'
+    - '+.lan'
+    - '+.local'
 
 
 proxies:
