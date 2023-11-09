@@ -9,20 +9,24 @@ Recommended app: [Clash Meta for Android](https://github.com/MetaCubeX/ClashMeta
 
 #### Installation
 
+<!--
 I recommend to install with [F-Droid](https://f-droid.org) / [Neo Store](https://f-droid.org/packages/com.machiav3lli.fdroid) — this will make updating easier. You can also install manually.
 
 - [Clash Meta on F-Droid / Neo Store](https://f-droid.org/packages/com.github.metacubex.clash.meta)
 
 - [Clash Meta for manual install](https://fossdroid.com/a/clashmetaforandroid.apk)
+-->
+
+For now Clash Meta can only be installed manually: [apk in F-Droid archive](https://f-droid.org/archive/com.github.metacubex.clash.meta_208010.apk). See [net4people/bbs/issues/303](https://github.com/net4people/bbs/issues/303) for the reasons.
 
 
 #### Configuration
 
 You will need a config file, [clash.meta.example.yml](clash.meta.example.yml) can be used as an example.
 
-Video, ⏱️ 83 sec.:
+Video, ⏱️ 80 sec.:
 
-[![image](../../misc/clash-meta-android-video-preview.webp)](https://youtu.be/uT7MzejEg8k)
+[![image](../../misc/clash-meta-android-video-preview.webp)](https://youtu.be/mTnseyQbIcw)
 
 
 ### Windows
