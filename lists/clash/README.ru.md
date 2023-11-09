@@ -16,7 +16,9 @@
 - [Clash Meta для установки вручную](https://fossdroid.com/a/clashmetaforandroid.apk)
 -->
 
-Clash Meta пока может быть установлен только вручную: [apk в архиве F-Droid](https://f-droid.org/archive/com.github.metacubex.clash.meta_208010.apk). См. [net4people/bbs/issues/303](https://github.com/net4people/bbs/issues/303) о причинах.
+Clash Meta пока может быть установлен только вручную из [apk](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.9.0/cmfa-2.9.0-meta-universal-release.apk).
+
+См. [net4people/bbs/issues/303](https://github.com/net4people/bbs/issues/303) о причинах.
 
 #### Настройка
 

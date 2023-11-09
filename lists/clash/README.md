@@ -17,7 +17,9 @@ I recommend to install with [F-Droid](https://f-droid.org) / [Neo Store](https:/
 - [Clash Meta for manual install](https://fossdroid.com/a/clashmetaforandroid.apk)
 -->
 
-For now Clash Meta can only be installed manually: [apk in F-Droid archive](https://f-droid.org/archive/com.github.metacubex.clash.meta_208010.apk). See [net4people/bbs/issues/303](https://github.com/net4people/bbs/issues/303) for the reasons.
+For now Clash Meta can only be installed manually from [apk](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.9.0/cmfa-2.9.0-meta-universal-release.apk).
+
+See [net4people/bbs/issues/303](https://github.com/net4people/bbs/issues/303) for the reasons.
 
 
 #### Configuration
