@@ -24,7 +24,7 @@ Clash Meta пока может быть установлен только вру
 
 Видео, ⏱️ 90 сек.:
 
-[![image](../../misc/clash-meta-android-video-preview.webp)](https://youtu.be/VVmbiWdpNOA)
+[![image](../../misc/clash-meta-android-video-preview.ru.webp)](https://youtu.be/VVmbiWdpNOA)
 
 
 - Откройте приложение Clash Meta
@@ -80,9 +80,9 @@ Clash Meta пока может быть установлен только вру
 
 Вам понадобится файл конфигурации, примером может послужить [clash.meta.example.yml](clash.meta.example.yml).
 
-Видео, ⏱️ 35 сек.:
+Видео, ⏱️ 45 сек.:
 
-[![image](../../misc/clash-verge-video-preview.webp)](https://youtu.be/0bvfWYXqRTQ)
+[![image](../../misc/clash-verge-video-preview.ru.webp)](https://youtu.be/0bvfWYXqRTQ)
 
 - Откройте приложение Clash Verge
 
