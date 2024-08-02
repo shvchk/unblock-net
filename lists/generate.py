@@ -24,7 +24,7 @@ def generate_clash_list(in_file, out_file):
 
 def generate_singbox_list(in_file, out_file):
   ruleset = {
-    'version': 2,
+    'version': 1,
     'rules': [{
       'domain_suffix': [l for l in (line.strip() for line in in_file) if l and l[0] != '#']
     }]
