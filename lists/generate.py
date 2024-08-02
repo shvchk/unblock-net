@@ -2,12 +2,14 @@
 
 import os, sys
 import glob
+import json
 from pathlib import Path
 
 lists_dir = sys.path[0]
 
 apps = {
   'clash': 'generate_clash_list',
+  'sing-box': 'generate_singbox_list',
   'switchy-omega': 'generate_switchyomega_list'
 }
 
@@ -18,6 +20,17 @@ def generate_clash_list(in_file, out_file):
   for line in in_file:
     if line[0] == '#' or line.strip() == '': continue
     out_file.write(f'+.{line}')
+
+
+def generate_singbox_list(in_file, out_file):
+  ruleset = {
+    'version': 2,
+    'rules': [{
+      'domain_suffix': [l for l in (line.strip() for line in in_file) if l and l[0] != '#']
+    }]
+  }
+
+  json.dump(ruleset, out_file, indent = 2)
 
 
 def generate_switchyomega_list(in_file, out_file):
